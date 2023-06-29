@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Image2 from './Image2.jpg';
 
 
 const Component2 = () => {
@@ -18,6 +19,10 @@ const Component2 = () => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
+      <div className="image-container">
+        <img src={Image2} alt="Image 2" className="project-image" />
+      </div>
+
       <h2>Vous cherchez à intégrer un projet informatique ?</h2>
       {isHovered && <p>Bonjour 2</p>}
     </div>

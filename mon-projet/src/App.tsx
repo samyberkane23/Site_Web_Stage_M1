@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Header />
-    <h1>NOS PRESTATION</h1>
+    <h1>NOS PRESTATIONS</h1>
       <div className="container">
         <div className="row-container">
           <Component1 />
