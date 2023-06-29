@@ -1,30 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Image3 from './Image3.jpg';
 
-
 const Component3 = () => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
   return (
-    <div
-      className={`component-container ${isHovered ? 'hovered' : ''}`}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <div className="image-container">
-        <img src={Image3} alt="Image " className="project-image" />
+    <div className="position-relative border border-black rounded">
+      <img src={Image3} alt="Image 3" className="project-image img-fluid" />
+      <div className="text-overlay position-absolute top-50 end-0 translate-middle-y text-end pe-3">
+        <h2 className="text mb-0 text-md-end text-wrap" style={{ maxWidth: '100%' }}>
+          Vous avez un projet informatique ou un besoin à nous confier ?
+        </h2>
       </div>
-
-      <h2>Vous cherchez un futur consultant et vous avez besoin d’accompagnement ?</h2>
-      {isHovered && <p>Bonjour 3</p>}
     </div>
   );
 };
