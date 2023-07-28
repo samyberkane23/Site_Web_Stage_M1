@@ -1,50 +1,34 @@
 import React from 'react';
-import Header from './Header';
-import Component1 from './Component1';
-import Component2 from './Component2';
-import Component3 from './Component3';
-import './container1.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Player from './VideoComponent';
+import logo from './logo.svg';
+import './App.css';
 
-const AppContainer: React.FC = () => {
+import Navbar from './components/Navbar';
+import Home from './routes/Home';
+import { Route, Routes } from 'react-router-dom';
+import About from './routes/About';
+import Service from './routes/Service';
+import Contact from './routes/Contact';
+
+
+
+
+function App() {
   return (
-    <div>
-      <Header />
-      <Player />
+    <div className="App">
+        <Routes>
+          <Route path="/" element = {<Home/>}/>
+          <Route path="/about" element = {<About/>}/>
+          <Route path="/service" element = {<Service/>}/>
+          <Route path="/contact" element = {<Contact/>}/>
+          
+        </Routes>
 
-      <div className="container-fluid">
-        <div className="content">
-          <div className="row mb-4">
-            <div className="col">
-              <div className="row-container">
-                <a href="#">
-                  <Component1 />
-                </a>
-              </div>
-            </div>
-            <div className="col">
-              <div className="row-container">
-                <a href="#">
-                  <Component2 />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="row mb-4">
-            <div className="col-12">
-              <div className="row-container">
-                <a href="#">
-                  <Component3 />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
-      </div>
+
+        
     </div>
   );
-};
+}
 
-export default AppContainer;
+export default App;
