@@ -40,6 +40,7 @@
     display: flex;
     justify-content: space-between;
     z-index: -99;
+
 }
 
 .image img{
@@ -87,3 +88,32 @@
 
     
 }
+
+/* Nouveau style pour les boutons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: grey;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Effet de survol sur les boutons */
+  .btn:hover {
+    background-color: black;
+  }
+  
+  /* Style pour le texte et lien des boutons */
+  .destination a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .destination a:hover {
+    text-decoration: underline;
+  }
+  

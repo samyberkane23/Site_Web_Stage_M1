@@ -6,7 +6,7 @@ function ContactForm(){
     return(
         <div className="form-container">
 
-            <h1> envoyez un message </h1>
+            <h1> Envoyez-nous un mail </h1>
             <form>
                 <input placeholder="Nom"/>
                 <input placeholder="Email"/>

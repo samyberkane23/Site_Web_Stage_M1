@@ -6,6 +6,8 @@ interface DestinationDataProps {
   text: string;
   img1: string; 
   img2: string;
+  btnText: string; // Ajoutez une propriété pour le texte du bouton
+  btnLink: string; // Ajoutez une propriété pour le lien du bouton
   className: string;
 }
 
@@ -16,16 +18,14 @@ class DestinationData extends Component<DestinationDataProps> {
         <div className="des-text">
           <h2>{this.props.heading}</h2>
           <p>{this.props.text}</p>
+          {/* Bouton */}
+          <a href={this.props.btnLink} className="btn">{this.props.btnText}</a>
         </div>
         <div className="image">
-          <img
-            alt="image"
-            src={this.props.img1}
-          />
-          <img
-            alt="image"
-            src={this.props.img2}
-          />
+          {/* Première image */}
+          <img alt="image" src={this.props.img1} />
+          {/* Deuxième image */}
+          <img alt="image" src={this.props.img2} />
         </div>
       </div>
     );

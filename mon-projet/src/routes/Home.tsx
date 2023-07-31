@@ -15,7 +15,7 @@ function Home(){
                 title="Besoin d'un Service en Informatique"
                 text="Laissez nous gérer vos projets avec précison"
                 buttonText = "Contactez-nous"
-                url="/"
+                url="/contact"
                 btnClass = "show"
             />
             <Destination/>

@@ -11,7 +11,7 @@ function About(){
             
                 cName="hero-mid"
                 heroImg="https://images.pexels.com/photos/2977565/pexels-photo-2977565.jpeg?auto=compress&cs=tinysrgb&w=1600" 
-                title="About"
+                title="A propos"
                 text=""
                 buttonText = ""
                 url="/"

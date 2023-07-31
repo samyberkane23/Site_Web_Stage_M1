@@ -32,7 +32,6 @@ class Navbar extends Component {
               </Link>
             </li>
           ))}
-          <button>Contact</button>
         </ul>
       </nav>
     );
