@@ -17,7 +17,7 @@ const Destination: React.FC = () => {
         img2 = "https://media.istockphoto.com/id/1130708047/fr/photo/asiatique-architecte-gens-daffaires-discussion-de-groupe-sur-la-r%C3%A9union-avec-les-plans-de.jpg?s=612x612&w=0&k=20&c=9mFuxZ6A_1Y7gPGC_DcIAGmSqXCUEK7Xp4kJx_Z-84c="
 
         btnText="en savoir plus" // Ajoutez le texte pour le bouton 1
-        btnLink="/service" // Ajoutez le lien pour le bouton 1
+        btnLink="/service#paragraphe1" // Ajoutez le lien pour le bouton 1
       />
 
 
@@ -29,7 +29,7 @@ const Destination: React.FC = () => {
         img1 ={"https://media.istockphoto.com/id/1308399472/fr/photo/discussion-des-indicateurs-financiers-et-commerciaux-sur-tablette.jpg?s=612x612&w=0&k=20&c=RuY5dah4LDRjD1KAM1SEvamEGuBM-vEk7O52SBtGxU8="}
         img2 = {"https://media.istockphoto.com/id/1130708047/fr/photo/asiatique-architecte-gens-daffaires-discussion-de-groupe-sur-la-r%C3%A9union-avec-les-plans-de.jpg?s=612x612&w=0&k=20&c=9mFuxZ6A_1Y7gPGC_DcIAGmSqXCUEK7Xp4kJx_Z-84c="}
         btnText="en savoir plus" // Ajoutez le texte pour le bouton 1
-        btnLink="/service" // Ajoutez le lien pour le bouton 1
+        btnLink="/service#paragraphe2" // Ajoutez le lien pour le bouton 1
       />
 
 
@@ -41,7 +41,7 @@ const Destination: React.FC = () => {
         img1 ={"https://media.istockphoto.com/id/1308399472/fr/photo/discussion-des-indicateurs-financiers-et-commerciaux-sur-tablette.jpg?s=612x612&w=0&k=20&c=RuY5dah4LDRjD1KAM1SEvamEGuBM-vEk7O52SBtGxU8="}
         img2 = {"https://media.istockphoto.com/id/1130708047/fr/photo/asiatique-architecte-gens-daffaires-discussion-de-groupe-sur-la-r%C3%A9union-avec-les-plans-de.jpg?s=612x612&w=0&k=20&c=9mFuxZ6A_1Y7gPGC_DcIAGmSqXCUEK7Xp4kJx_Z-84c="}
         btnText="en savoir plus" // Ajoutez le texte pour le bouton 1
-        btnLink="/service" // Ajoutez le lien pour le bouton 1
+        btnLink="/service#paragraphe3" // Ajoutez le lien pour le bouton 1
      />
 
 
@@ -55,7 +55,7 @@ const Destination: React.FC = () => {
         img1 ={"https://media.istockphoto.com/id/1308399472/fr/photo/discussion-des-indicateurs-financiers-et-commerciaux-sur-tablette.jpg?s=612x612&w=0&k=20&c=RuY5dah4LDRjD1KAM1SEvamEGuBM-vEk7O52SBtGxU8="}
         img2 = {"https://media.istockphoto.com/id/1130708047/fr/photo/asiatique-architecte-gens-daffaires-discussion-de-groupe-sur-la-r%C3%A9union-avec-les-plans-de.jpg?s=612x612&w=0&k=20&c=9mFuxZ6A_1Y7gPGC_DcIAGmSqXCUEK7Xp4kJx_Z-84c="}
         btnText="en savoir plus" // Ajoutez le texte pour le bouton 1
-        btnLink="/service" // Ajoutez le lien pour le bouton 1
+        btnLink="/service#paragraphe4" // Ajoutez le lien pour le bouton 1
       />
 
 

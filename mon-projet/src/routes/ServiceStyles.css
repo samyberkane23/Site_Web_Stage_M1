@@ -1,0 +1,47 @@
+:target {
+    background: linear-gradient(to right, gray, transparent); /* Dégradé de gauche à droite avec la couleur jaune */
+    animation: background-fade 2s ease-in-out; /* Animation de 2 secondes */
+    scroll-margin-top: 100px;
+}
+  
+
+
+
+  /* Animation pour le dégradé de l'arrière-plan */
+  @keyframes background-fade {
+    0% {
+      background-size: 0% 100%; /* Début du dégradé sans largeur */
+    }
+    100% {
+      background-size: 100% 100%; /* Fin du dégradé avec largeur complète */
+    }
+  }
+  
+
+  .about-container{
+
+    margin: 4rem 6rem;
+    text-align:start;
+
+}
+
+.about-container h1{ 
+
+    padding-bottom: 1rem;    
+}
+
+
+.about-container p{ 
+    padding-bottom: 2rem;
+}
+
+
+@media screen and (max-width:850px) {
+
+    .about-container{
+        margin: 4rem 2rem;
+    
+    }
+    
+    
+}

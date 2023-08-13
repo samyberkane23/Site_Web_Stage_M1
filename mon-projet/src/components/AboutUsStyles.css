@@ -1,27 +1,35 @@
-.about-container{
-
+/* AboutUsStyles.css */
+.about-container {
     margin: 4rem 6rem;
-    text-align:start;
-
+    text-align: start;
+    font-family: Arial, sans-serif;
 }
 
-.about-container h1{ 
-
-    padding-bottom: 1rem;    
+.about-container h1 {
+    font-size: 36px;
+    color: #333;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #666;
+    margin-bottom: 1rem;
 }
 
-
-.about-container p{ 
+.about-container p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
     padding-bottom: 2rem;
 }
 
-
-@media screen and (max-width:850px) {
-
-    .about-container{
+@media screen and (max-width: 850px) {
+    .about-container {
         margin: 4rem 2rem;
-    
     }
-    
-    
+
+    .about-container h1 {
+        font-size: 28px;
+    }
+
+    .about-container p {
+        font-size: 16px;
+    }
 }

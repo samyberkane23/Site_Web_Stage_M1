@@ -5,7 +5,7 @@ function Trip(){
 
     return(
         <div className="trip">
-
+            
             <h1>ALTERNANCE ET STAGE </h1>
             <p> Vous cherchez quoi ?</p>
             <div className="tripcard">

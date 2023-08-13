@@ -1,10 +1,13 @@
 .trip{
     margin: 4rem 6rem;
-    color: black;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
 }
 
 .trip h1{
     font-size:3rem;
+    color: #333;
+    font-family: 'Playfair Display', serif;
 }
 
 .tripcard{
@@ -45,6 +48,8 @@
 
     font-size: 1.3rem;
     padding: .9rem 0 .2rem 0;
+    color: #333;
+    font-family: 'Playfair Display', serif;
 }
 
 
