@@ -1,28 +1,26 @@
+import React from "react";
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
-function Contact(){
-    return(
+const Contact: React.FC = () => {
+    return (
         <>
-        <Navbar/>
+            <Navbar />
             <Hero
-            
                 cName="hero-mid"
-                heroImg="https://media.istockphoto.com/id/1311422969/fr/photo/mail-communication-connection-message-%C3%A0-lenvoi-de-contacts-t%C3%A9l%C3%A9phone-global-letters-concept.jpg?s=612x612&w=0&k=20&c=-ckpVENzCmAohwQeaV7PwmQAP7Fk3Fe8Mj1HSescNhk=" 
+                heroImg="https://images.pexels.com/photos/2977565/pexels-photo-2977565.jpeg?auto=compress&cs=tinysrgb&w=1600"
                 title="Contact"
                 text=""
-                buttonText = ""
+                buttonText=""
                 url="/"
-                btnClass = "hide"
+                btnClass="hide"
             />
-            <ContactForm/>
-            <Footer/>
-
+            <ContactForm />
+            <Footer />
         </>
-    )
-
-}
+    );
+};
 
 export default Contact;

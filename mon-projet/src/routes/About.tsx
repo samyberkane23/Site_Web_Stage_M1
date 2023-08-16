@@ -1,29 +1,26 @@
+import React from "react";
 import AboutUS from "../components/AboutUs";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
-function About(){
-    return(
+const About: React.FC = () => {
+    return (
         <>
-        <Navbar/>
+            <Navbar />
             <Hero
-            
                 cName="hero-mid"
-                heroImg="https://images.pexels.com/photos/2977565/pexels-photo-2977565.jpeg?auto=compress&cs=tinysrgb&w=1600" 
+                heroImg="https://images.pexels.com/photos/2977565/pexels-photo-2977565.jpeg?auto=compress&cs=tinysrgb&w=1600"
                 title="A propos"
                 text=""
-                buttonText = ""
+                buttonText=""
                 url="/"
-                btnClass = "hide"
+                btnClass="hide"
             />
-            <AboutUS/>
-            <Footer/>
-
+            <AboutUS />
+            <Footer />
         </>
-
-    )
-
-}
+    );
+};
 
 export default About;

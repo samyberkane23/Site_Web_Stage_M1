@@ -1,8 +1,9 @@
+
+import React from "react";
 import "./FooterStyles.css";
 
 
-const Footer = ()=> {
-
+const Footer: React.FC = () => {
 
     return(
 
@@ -40,45 +41,39 @@ const Footer = ()=> {
                 </div>
             </div>
 
-            <div className="bottom">
-                <div>
-                    <h4>Project</h4>
-                    <a href="/">Cataloqgue</a>
-                    <a href="/">Status</a>
-                    <a href="/">Licence</a>
-                    <a href="/">All version</a>
+            <div className="bottom center-horizontal">
+
+                <div className="bottom-item">
+                    <h4>Contactez-nous aussi </h4>
+                    <p>
+                        <span role="img" aria-label="Localisation">📍</span> 73 rue Lauriston 75016 PARIS
+                    </p>
+                    <p>
+                        <span role="img" aria-label="Phone">📞</span> 06 41 92 11 79 
+                    </p>
+                    <p>
+                        <span role="img" aria-label="Mail">✉️</span> annane.nassima@gmail.com 
+                    </p>
+                </div>
+
+                <div className="bottom-item">
+                    <h4>Visitez aussi</h4>
+                    <a href="/">Acceuil</a>
+                    <a href="/About">A propos</a>
+                    <a href="/Service">Services</a>
+                    <a href="/Contact">Contact</a>
+
                 </div>
 
                 <div>
-                    <h4>Project</h4>
-                    <a href="/">Cataloqgue</a>
-                    <a href="/">Status</a>
-                    <a href="/">Licence</a>
-                    <a href="/">All version</a>
-                </div>
-
-                <div>
-                    <h4>Project</h4>
-                    <a href="/">Cataloqgue</a>
-                    <a href="/">Status</a>
-                    <a href="/">Licence</a>
-                    <a href="/">All version</a>
-
-                </div>
-
-                <div>
-                    <h4>Project</h4>
-                    <a href="/">Cataloqgue</a>
-                    <a href="/">Status</a>
-                    <a href="/">Licence</a>
-                    <a href="/">All version</a>
+                <img src={require("./images/s.png")} alt="" />
 
                 </div>
 
             </div>
 
         </div>
-    )
-}
+    );
+};
 
 export default Footer;

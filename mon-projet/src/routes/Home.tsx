@@ -1,29 +1,28 @@
+import React from "react";
 import Destination from "../components/Destination";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Trip from "../components/Trip";
 
-function Home(){
-    return(
+const Home: React.FC = () => {
+    return (
         <>
-        <Navbar/>
+            <Navbar />
             <Hero
-            
                 cName="hero"
-                heroImg="https://images.pexels.com/photos/7652039/pexels-photo-7652039.jpeg?auto=compress&cs=tinysrgb&w=1600" 
-                title="Besoin d'un Service en Informatique"
-                text="Laissez nous gérer vos projets avec précison"
-                buttonText = "Contactez-nous"
+                heroImg="https://images.pexels.com/photos/7652039/pexels-photo-7652039.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                title=" Besoin d'expertise en informatique?"
+                text="Confiez-nous la gestion en toute confiance."
+                buttonText="Contactez-nous"
                 url="/contact"
-                btnClass = "show"
+                btnClass="show"
             />
-            <Destination/>
-            <Trip/>
-            <Footer/>
+            <Destination />
+            <Trip />
+            <Footer />
         </>
-    )
-
-}
+    );
+};
 
 export default Home;

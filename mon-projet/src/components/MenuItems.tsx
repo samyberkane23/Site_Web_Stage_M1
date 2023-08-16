@@ -1,4 +1,12 @@
-export const MenuItems = [
+
+interface MenuItem {
+    title: string;
+    url: string;
+    cName: string;
+    icon: string;
+  }
+
+export const MenuItems:MenuItem[] = [
     {
         title : "Acceuil",
         url : "/",
@@ -6,7 +14,7 @@ export const MenuItems = [
         icon : "fa-solid fa-house-user"
     },
     {
-        title : "A propos",
+        title : "À propos",
         url : "/about",
         cName : "nav-links",
         icon : "fa-solid fa-circle-info"

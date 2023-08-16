@@ -1,6 +1,9 @@
+import React from "react";
 import "./AboutUsStyles.css";
 
-function AboutUs() {
+interface AboutUsProps {}
+
+const AboutUs: React.FC<AboutUsProps> = () => {
     return (
         <div className="about-container">
             <h1 className="about-heading">À Propos de SI Vibes</h1>
@@ -29,6 +32,6 @@ function AboutUs() {
             </div>
         </div>
     );
-}
+};
 
 export default AboutUs;

@@ -69,11 +69,11 @@ import axios from "axios";
 const rows: number = 4;
 
 function ContactForm() {
-    const [Name, setName] = useState("");
-    const [Email, setEmail] = useState("");
-    const [Sujet, setSubject] = useState("");
-    const [Message, setMessages] = useState("");
-    const [error, setError] = useState("");
+    const [Name, setName] = useState<string>("");
+    const [Email, setEmail] = useState<string>("");
+    const [Sujet, setSubject] = useState<string>("");
+    const [Message, setMessages] = useState<string>("");
+    const [error, setError] = useState<string>("");
 
     function sendMail() {
         if (Name && Email && Sujet && Message) {
