@@ -1,9 +1,9 @@
 import React from "react";
-import Destination from "../components/Destination";
+import Mission from "../components/Mission";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import Trip from "../components/Trip";
+import Need from "../components/Need";
 
 const Home: React.FC = () => {
     return (
@@ -18,8 +18,8 @@ const Home: React.FC = () => {
                 url="/contact"
                 btnClass="show"
             />
-            <Destination />
-            <Trip />
+            <Mission />
+            <Need />
             <Footer />
         </>
     );

@@ -1,21 +1,21 @@
 import React from "react";
-import "./TripStyles.css";
-import TripData from "./TripData";
+import "./NeedStyles.css";
+import NeedData from "./NeedData";
 
-interface TripProps {}
+interface NeedProps {}
 
-const Trip: React.FC<TripProps> = () => {
+const Need: React.FC<NeedProps> = () => {
     return (
-        <div className="trip">
+        <div className="need">
             <h1>ALTERNANCE ET STAGE</h1>
             <p>Vous cherchez quoi ?</p>
-            <div className="tripcard">
-                <TripData
+            <div className="needcard">
+                <NeedData
                     heading="Une entreprise qui cherche un alternant"
                     text="Explication comment les aider"
                     image="https://images.pexels.com/photos/1174775/pexels-photo-1174775.jpeg?auto=compress&cs=tinysrgb&w=1600"
                 />
-                <TripData
+                <NeedData
                     heading="Un étudiant qui cherche un stage ou alternance"
                     text="Explication comment les aider"
                     image="https://images.pexels.com/photos/1174775/pexels-photo-1174775.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -25,4 +25,4 @@ const Trip: React.FC<TripProps> = () => {
     );
 };
 
-export default Trip;
+export default Need;

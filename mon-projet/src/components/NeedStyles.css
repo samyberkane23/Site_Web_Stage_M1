@@ -1,16 +1,16 @@
-.trip{
+.need{
     margin: 4rem 6rem;
     color: #333;
     font-family: 'Poppins', sans-serif;
 }
 
-.trip h1{
+.need h1{
     font-size:3rem;
     color: #333;
     font-family: 'Playfair Display', serif;
 }
 
-.tripcard{
+.needcard{
     margin-top: 3rem;
     display:flex;
     justify-content:space-between ;
@@ -55,11 +55,11 @@
 
 @media screen and (max-width:850px){
 
-    .trip{
+    .need{
         margin:4rem 2rem;
     }
 
-    .tripcard{
+    .needcard{
         
         flex-direction: column ;
 

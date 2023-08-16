@@ -2,7 +2,7 @@
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import Trip from "../components/Trip";
+import Need from "../components/Need";
 import "./ServiceStyles.css";
 
 const Service: React.FC = () => {   // const paragraphRef = useRef<HTMLDivElement>(null);
@@ -44,7 +44,7 @@ const Service: React.FC = () => {   // const paragraphRef = useRef<HTMLDivElemen
             Rejoignez-nous dans cette aventure où l'innovation et l'indépendance se rencontrent pour façonner un avenir plus prometteur pour vous
             et votre entreprise.
 
-</p>
+            </p>
             </div>
 
             <div id="paragraphe2" className="about-container" >
@@ -68,7 +68,7 @@ const Service: React.FC = () => {   // const paragraphRef = useRef<HTMLDivElemen
 
 
 
-            <Trip/>
+            <Need/>
             <Footer/>
 
         </>

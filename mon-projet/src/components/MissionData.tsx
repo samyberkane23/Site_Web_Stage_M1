@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./DestinationStyles.css";
+import "./MissionStyles.css";
 
-interface DestinationDataProps {
+interface MissionDataProps {
   heading: string;
   text: string;
   img1: string; 
@@ -11,7 +11,7 @@ interface DestinationDataProps {
   className: string;
 }
 
-class DestinationData extends Component<DestinationDataProps> {
+class MissionData extends Component<MissionDataProps> {
   render() {
     return (
       <div className={this.props.className}>
@@ -23,13 +23,13 @@ class DestinationData extends Component<DestinationDataProps> {
         </div>
         <div className="image">
           {/* Première image */}
-          <img alt="image" src={this.props.img1} />
+          <img alt="image1" src={this.props.img1} />
           {/* Deuxième image */}
-          <img alt="image" src={this.props.img2} />
+          <img alt="image2" src={this.props.img2} />
         </div>
       </div>
     );
   }
 }
 
-export default DestinationData;
+export default MissionData;

@@ -1,11 +1,11 @@
-.destination{
+.mission{
     margin:4rem 6rem;
     color: #333;
     text-align: center;
 }
 
 
-.destination h1{
+.mission h1{
     font-size: 3rem;
     background: linear-gradient(to right, #ff6b6b, #9d65c9); /* Mélange de violet et rose */
     -webkit-background-clip: text;
@@ -16,7 +16,7 @@
 
 
 
-.destination p {
+.mission p {
     font-size: 1.2rem;
     color: #555;
     font-family: 'Roboto', sans-serif;
@@ -81,7 +81,7 @@
 
 
 @media screen and (max-width:850px){ 
-    .destination{
+    .mission{
         margin: 4rem 2rem;
     }
     .first-des{
@@ -130,13 +130,13 @@
   }
   
   /* Style pour le texte et lien des boutons */
-  .destination a {
+  .mission a {
     color: white;
     text-decoration: none;
     font-size: 16px;
   }
   
-  .destination a:hover {
+  .mission a:hover {
     text-decoration: underline;
   }
   

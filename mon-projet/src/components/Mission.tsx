@@ -1,14 +1,14 @@
 import React from "react";
-import DestinationData from "./DestinationData";
-import "./DestinationStyles.css";
+import MissionData from "./MissionData";
+import "./MissionStyles.css";
 
-const Destination: React.FC = () => {
+const Mission: React.FC = () => {
   return (
-    <div className="destination">
+    <div className="mission">
       <h1>Nos services</h1>
       <p>Présentation de nos services</p>
 
-      <DestinationData
+      <MissionData
         className="first-des"
         heading="Vous avez un projet informatique ou un besoin à nous confier ?"
         text="À la croisée de l'innovation et de la technologie, notre équipe se tient prête à concrétiser vos projets informatiques les plus ambitieux.
@@ -23,7 +23,7 @@ const Destination: React.FC = () => {
       />
 
 
-      <DestinationData
+      <MissionData
         className="first-des-reverse"
 
         heading="Vous cherchez à intégrer un projet informatique ?"
@@ -37,7 +37,7 @@ const Destination: React.FC = () => {
       />
 
 
-      <DestinationData
+      <MissionData
         className="first-des"
 
         heading="Vous cherchez un futur consultant en informatique et vous avez besoin d’accompagnement ?"
@@ -51,7 +51,7 @@ const Destination: React.FC = () => {
 
 
 
-      <DestinationData
+      <MissionData
         className="first-des-reverse"
 
         heading="Vous cherchez une société de portage en informatique ?"
@@ -68,4 +68,4 @@ const Destination: React.FC = () => {
   );
 }
 
-export default Destination;
+export default Mission;

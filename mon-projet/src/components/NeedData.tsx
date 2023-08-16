@@ -1,17 +1,17 @@
-import "./TripStyles.css";
+import "./NeedStyles.css";
 import React, { ReactNode } from "react";
 
-interface TripDataProps {
+interface NeedDataProps {
     text: ReactNode;
     heading: ReactNode;
     image: string | undefined;
 }
 
-const TripData: React.FC<TripDataProps> = (props) => {
+const NeedData: React.FC<NeedDataProps> = (props) => {
     return (
         <div className="t-card">
             <div className="t-image">
-                <img src={props.image} alt="image" />
+                <img src={props.image} alt="" />
             </div>
             <h4>{props.heading}</h4>
             <p>{props.text}</p>
@@ -19,5 +19,5 @@ const TripData: React.FC<TripDataProps> = (props) => {
     );
 };
 
-export default TripData;
+export default NeedData;
 
