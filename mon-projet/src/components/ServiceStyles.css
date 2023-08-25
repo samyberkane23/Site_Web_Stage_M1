@@ -1,0 +1,44 @@
+/* Animation lorsque le paragraphe est ciblé */
+:target {
+  background: linear-gradient(to right, rgb(176, 213, 173), transparent); /* Dégradé de gauche à droite avec la couleur */
+  animation: background-fade 2s ease-in-out; /* Animation de 2 secondes */
+  scroll-margin-top: 100px;
+}
+
+/* Animation pour le dégradé de l'arrière-plan */
+@keyframes background-fade {
+  0% {
+    background-size: 0% 100%; /* Début du dégradé sans largeur */
+  }
+  100% {
+    background-size: 100% 100%; /* Fin du dégradé avec largeur complète */
+  }
+}
+
+/* Styles pour les conteneurs de paragraphe */
+.about-container {
+  margin: 4rem 6rem;
+  text-align: start;
+}
+
+/* Styles pour le titre du paragraphe */
+.about-container h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.about-container p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 2rem; 
+  color: #666;
+  text-indent: 1em;
+}
+
+/* Styles responsives pour les écrans de petite taille */
+@media screen and (max-width: 850px) {
+  .about-container {
+    margin: 4rem 2rem;
+  }
+}

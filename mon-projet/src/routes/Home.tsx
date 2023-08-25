@@ -12,7 +12,7 @@ const Home: React.FC = () => {
             <Hero
                 cName="hero"
                 heroImg="https://images.pexels.com/photos/7652039/pexels-photo-7652039.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                title=" Besoin d'expertise en informatique?"
+                title=" Besoin d'expertise en informatique ?"
                 text="Confiez-nous la gestion en toute confiance."
                 buttonText="Contactez-nous"
                 url="/contact"

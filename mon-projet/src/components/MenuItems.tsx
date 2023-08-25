@@ -33,12 +33,6 @@ export const MenuItems:MenuItem[] = [
         cName : "nav-links",
         icon : "fa-solid fa-address-book"
     },
-    
-    // {
-    //     title : "Sign Up",
-    //     url : "/signup",
-    //     cName : "nav-links-mobile",
-    // },
-    
+        
 
 ]

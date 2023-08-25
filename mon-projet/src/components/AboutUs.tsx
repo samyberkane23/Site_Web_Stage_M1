@@ -15,13 +15,14 @@ const AboutUs: React.FC<AboutUsProps> = () => {
                 <h2 className="about-subheading">Gestion de Projet</h2>
                 <p className="about-subdescription">
                     Notre expertise réside dans la gestion de projets informatiques. Notre approche repose sur des principes clés :
-                </p>
+               
                 <ul className="about-list">
                     <li>Compréhension approfondie de vos besoins.</li>
                     <li>Sélection de professionnels passionnés pour concrétiser vos projets.</li>
                     <li>Établissement d'objectifs précis avec des moyens concrets pour les atteindre.</li>
                     <li>Transparence, agilité et réactivité tout au long du processus.</li>
                 </ul>
+                </p>
             </div>
 
             <div className="about-section">

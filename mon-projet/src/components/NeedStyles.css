@@ -68,5 +68,10 @@
         width: 100%;
         margin-bottom: 1.5rem;
     }
+
+    .modal-content .open-form-button {
+        text-align: center;
+        margin-top: 1.5rem;
+      }
     
 }

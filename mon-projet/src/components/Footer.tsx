@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
             <div className="top">
                 <div>
                     <h1>Si Vibes</h1>
-                    <p>Societé de portage</p>
+                    <p>Conseil en systèmes et logiciels informatiques</p>
                 </div>
                 <div>
                     <a href="/">
@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
                         <span role="img" aria-label="Phone">📞</span> 06 41 92 11 79 
                     </p>
                     <p>
-                        <span role="img" aria-label="Mail">✉️</span> annane.nassima@gmail.com 
+                        <span role="img" aria-label="Mail">✉️</span> contact.sivibes@gmail.com
                     </p>
                 </div>
 

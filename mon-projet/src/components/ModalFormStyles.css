@@ -1,0 +1,116 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    width: 80%; /* ajustez la largeur du formulaire selon vos besoins */
+    max-width: 600px; /* limitez la largeur maximale si nécessaire */
+    padding: 2rem; /* ajustez les marges intérieures du formulaire */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    }
+  
+  .modal-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .modal-content label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .modal-content input,
+  .modal-content select,
+  .modal-content textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .modal-content button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-content button.close-button {
+    background-color: #ccc;
+    margin-top: 1rem;
+  }
+
+
+  /* /* ModalFormStyles.css */
+.modal-form-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10001; /* Valeur plus élevée que la barre de navigation */
+  width: 80%;
+  max-width: 600px; /* Réduisez la largeur maximale du formulaire */
+  height: 80%; /* Réduisez la hauteur du formulaire */
+  max-height: 80vh; /* Limitez la hauteur maximale du formulaire */
+  padding: 1rem; /* Réduisez les marges intérieures du formulaire */
+  overflow-y: auto; /* Ajoutez défilement vertical en cas de dépassement de hauteur */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles pour les appareils mobiles */
+@media screen and (max-width: 800px) {
+  .modal-content {
+    width: 90%; /* Réduisez la largeur du formulaire */
+    padding: 1rem; /* Ajustez les marges intérieures du formulaire */
+  }
+
+  .modal-content h2 {
+    font-size: 1.2rem; /* Réduisez la taille de la police du titre */
+  }
+
+  .modal-content label {
+    font-size: 1rem; /* Réduisez la taille de la police des étiquettes */
+  }
+
+  .modal-content input,
+  .modal-content select,
+  .modal-content textarea {
+    padding: 0.3rem; /* Réduisez le rembourrage des champs de saisie */
+    margin-bottom: 0.5rem;
+  }
+  .modal-content button {
+    font-size: 0.9rem;
+    width: 100%; /* Remplir la largeur disponible */
+    padding: 0.5rem; /* Ajouter un peu d'espace autour du bouton */
+    margin-top: 1rem; /* Espacement entre le dernier champ et le bouton */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+.modal-content .open-form-button {
+  text-align: center;
+  margin-top: 1.5rem; /* Espacement entre les champs de saisie et le bouton */
+}
+}
+

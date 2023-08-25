@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 class Navbar extends Component {
 
   state = {clicked :false };
-  // Définir l'état
-  // Créer la fonction handleClick
 
   handleClick = () => {
     this.setState({clicked: !this.state.clicked});

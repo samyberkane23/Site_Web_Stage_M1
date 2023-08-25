@@ -11,7 +11,7 @@ const About: React.FC = () => {
             <Hero
                 cName="hero-mid"
                 heroImg="https://images.pexels.com/photos/2977565/pexels-photo-2977565.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                title="A propos"
+                title="À propos"
                 text=""
                 buttonText=""
                 url="/"
