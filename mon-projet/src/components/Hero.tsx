@@ -15,8 +15,9 @@ interface HeroProps {
 const Hero: React.FC<HeroProps> = (props) => {
   return (
     <>
-      <div className={props.cName}>
-        <img alt="HeroImg" src={props.heroImg} />
+      <div  className={props.cName}>
+        <img className="coverture" alt="HeroImg" src={props.heroImg} />
+
 
         <div className=" hero-text">
           <h1>{props.title}</h1>
